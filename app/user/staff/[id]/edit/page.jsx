@@ -7,7 +7,7 @@ import UserLayout from '../../../UserLayout';
 import StaffForm from '../../StaffForm';
 
 export const metadata = {
-  title: 'Edit Staff | FeeTrack',
+  title: 'Edit Staff | Lectt',
   description: 'Edit staff details.'
 }
 

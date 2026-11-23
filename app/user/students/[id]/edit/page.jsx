@@ -7,7 +7,7 @@ import StudentForm from '../../StudentForm';
 import { fetchStudentFormOptions, getStudentPhotoUrl } from '../../formData';
 
 export const metadata = {
-  title: 'Edit Student | FeeTrack',
+  title: 'Edit Student | Lectt',
   description: 'Edit student details.'
 }
 

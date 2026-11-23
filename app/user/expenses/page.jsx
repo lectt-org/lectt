@@ -7,7 +7,7 @@ import { redirect } from "next/navigation";
 import { getCurrentSession } from "@/utils/session/currentSession";
 
 export const metadata = {
-    title: 'Expenses | FeeTrack',
+    title: 'Expenses | Lectt',
     description: 'The page to view and manage expenses.'
 }
 

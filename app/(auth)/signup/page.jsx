@@ -16,7 +16,7 @@ export default async function SignupPage() {
       <div className="hidden lg:flex w-1/2 bg-gray-100 flex-col p-8 ">
         <Link href='/' className="flex items-center gap-1" >
             {/* Logo here */}
-            <span className="text-lg font-bold text-gray-900 italic">FeeTrack</span>
+            <span className="text-lg font-bold text-gray-900 italic">Lectt</span>
         </Link>
 
         <div className="w-full h-full flex flex-col justify-between mt-12">
@@ -35,15 +35,15 @@ export default async function SignupPage() {
             </div>
 
             <div className="flex flex-col text-sm gap-1">
-                <h2 className="text-sm font-bold">© FeeTrack</h2>
-                <p>You may react out to us at: contact.feetrack[at]gmail.com</p>
+                <h2 className="text-sm font-bold">© Lectt</h2>
+                <p>You may react out to us at: contact.lectt[at]gmail.com</p>
             </div>
         </div>
       </div>
 
       <div className="flex flex-col w-full lg:max-w-1/2 p-4">
         <Link href='/' className="lg:hidden flex items-center gap-1" >
-            <h1 className="text-lg font-bold text-gray-900 italic">FeeTrack</h1>
+            <h1 className="text-lg font-bold text-gray-900 italic">Lectt</h1>
         </Link>
 
         <SignupForm />

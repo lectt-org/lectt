@@ -6,7 +6,7 @@ import StaffClient from "./StaffClient";
 import { redirect } from "next/navigation";
 
 export const metadata = {
-    title: 'Staff | FeeTrack',
+    title: 'Staff | Lectt',
     description: 'Allows to view and manage staff.'
 }
 

@@ -3,8 +3,8 @@ import Contact from "@/components/ContactPage/Contact";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-    title: 'Contact | FeeTrack',
-    description: 'The contact page of FeeTrack'
+    title: 'Contact | Lectt',
+    description: 'The contact page of Lectt'
 }
 
 export default function ContactPage() {

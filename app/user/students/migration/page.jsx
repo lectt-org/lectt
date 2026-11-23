@@ -6,7 +6,7 @@ import UserLayout from "../../UserLayout"
 import MigrationClient from "./MigrationClient"
 
 export const metadata = {
-    title: 'Student Migration | FeeTrack',
+    title: 'Student Migration | Lectt',
     description: "The page to change students' class and section with changing academic years."
 }
 

@@ -6,7 +6,7 @@ import UserLayout from '../../UserLayout';
 import FeesSetupClient from './FeesSetupClient';
 
 export const metadata = {
-    title: 'Fees Setup | FeeTrack',
+    title: 'Fees Setup | Lectt',
     description: 'The page for setting up classwise fee.'
 }
 

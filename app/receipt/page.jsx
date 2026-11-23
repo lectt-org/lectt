@@ -467,7 +467,7 @@ export function buildReceiptHtml(paymentData) {
         Generated on: ${new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })} ${new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })}
       </p>
       <p>
-          Powered by <strong><a href="https://krishnaupadhyay.vercel.app" target="_blank">FeeTrack</a></strong>
+          Powered by <strong><a href="https://krishnaupadhyay.vercel.app" target="_blank">Lectt</a></strong>
       </p>
     </div>
   </div>

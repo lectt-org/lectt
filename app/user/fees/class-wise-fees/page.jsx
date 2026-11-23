@@ -5,7 +5,7 @@ import ClassesFeesClient from "./ClassesFeesClient";
 import UserLayout from "../../UserLayout";
 
 export const metadata = {
-    title: 'Class-Wise Fees | FeeTrack',
+    title: 'Class-Wise Fees | Lectt',
     description: "Lists school's fees in a class-wise manner."
 }
 

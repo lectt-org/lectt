@@ -8,7 +8,7 @@ import StudentForm from '../StudentForm';
 import { fetchStudentFormOptions } from '../formData';
 
 export const metadata = {
-  title: 'Add Student | FeeTrack',
+  title: 'Add Student | Lectt',
   description: 'Add a new student.'
 }
 

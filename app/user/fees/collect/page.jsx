@@ -2,7 +2,7 @@ import UserLayout from "../../UserLayout";
 import CollectFeesClient from "./CollectFeesClient";
 
 export const metadata = {
-    title: 'Collect Fee | FeeTrack',
+    title: 'Collect Fee | Lectt',
     description: 'The page to collect student fee.'
 }
 

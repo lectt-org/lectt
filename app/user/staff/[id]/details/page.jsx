@@ -11,7 +11,7 @@ import PrintButton from '@/components/PrintButton';
 import { FieldGrid, SectionTitle } from '@/components/PrintFields';
 
 export const metadata = {
-  title: 'Staff Details | FeeTrack',
+  title: 'Staff Details | Lectt',
   description: 'Printable staff details form.'
 }
 

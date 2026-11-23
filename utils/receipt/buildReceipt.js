@@ -230,7 +230,7 @@ export function buildReceiptHtml(paymentData) {
     </div>
 
     <div class="receipt-footer">
-      ${totals.prev_paid > 0 ? 'Prev. Paid includes earlier payments and discounts on these fees. ' : ''}Computer-generated receipt · Generated on ${esc(generatedOn)} · Powered by <strong>FeeTrack</strong>
+      ${totals.prev_paid > 0 ? 'Prev. Paid includes earlier payments and discounts on these fees. ' : ''}Computer-generated receipt · Generated on ${esc(generatedOn)} · Powered by <strong>Lectt</strong>
     </div>
   </div>`;
 

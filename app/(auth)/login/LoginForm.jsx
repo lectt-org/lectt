@@ -88,7 +88,7 @@ export default function LoginForm() {
                     <div className="w-full border-t border-gray-300"></div>
                 </div>
                 <div className="relative w-full text-center text-sm">
-                    <span className="z-10 text-gray-700 bg-white px-2">New to FeeTrack?</span>
+                    <span className="z-10 text-gray-700 bg-white px-2">New to Lectt?</span>
                 </div>
             </div>
 

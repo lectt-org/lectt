@@ -39,7 +39,7 @@ export default function ResetPasswordPage() {
     return (
         <div className="flex flex-col w-full p-4 sm:p-8 lg:p-12">
             <Link href='/' className="">
-                <h1 className="text-lg font-bold text-gray-900 italic">FeeTrack</h1>
+                <h1 className="text-lg font-bold text-gray-900 italic">Lectt</h1>
             </Link>
 
             <div className="w-full max-w-md mx-auto flex flex-col justify-center flex-grow">

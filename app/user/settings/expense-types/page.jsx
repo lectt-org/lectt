@@ -6,7 +6,7 @@ import ExpenseSetupClient from "./ExpenseSetupClient";
 import { redirect } from "next/navigation";
 
 export const metadata = {
-    title: 'Expense Types | FeeTrack',
+    title: 'Expense Types | Lectt',
     description: 'The page for expenses setup.'
 }
 

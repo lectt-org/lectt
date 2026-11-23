@@ -45,7 +45,7 @@ function Sidebar({ handleMobileClick, mobile, profile }) {
         <aside className="sidebar w-full h-full max-h-screen flex flex-col gap-y-4 overflow-y-auto bg-primary px-4 pb-10">
             <div className="w-full h-16 flex shrink-0 justify-center items-center">
                 <Link href='/' className="text-base font-bold text-gray-50 italic">
-                    FeeTrack
+                    Lectt
                 </Link>
             </div>
 

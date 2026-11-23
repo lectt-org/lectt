@@ -6,7 +6,7 @@ import UserLayout from '../../UserLayout';
 import ClassesClient from './ClassesClient';
 
 export const metadata = {
-    title: 'Classes & Sections | FeeTrack',
+    title: 'Classes & Sections | Lectt',
     description: 'The page to define classes and sections.'
 }
 

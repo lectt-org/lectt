@@ -7,8 +7,8 @@ import UserLayout from '../../UserLayout';
 import StudentsClient from './StudentsClient';
 
 export const metadata = {
-    title: 'Students | FeeTrack',
-    description: 'Lists and allows to manage students.'
+    title: 'Students | Lectt',
+    description: 'Lists students and allows to manage them.'
 }
 
 export default async function StudentsPage() {

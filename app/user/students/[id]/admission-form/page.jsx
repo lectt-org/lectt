@@ -11,7 +11,7 @@ import { FieldGrid, SectionTitle } from '@/components/PrintFields';
 import { getStudentPhotoUrl } from '../../formData';
 
 export const metadata = {
-  title: 'Admission Form | FeeTrack',
+  title: 'Admission Form | Lectt',
   description: 'Printable student admission form.'
 }
 

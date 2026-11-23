@@ -68,7 +68,7 @@ export default function NormalHeader() {
         <header className={`w-full sticky top-0 z-10 h-14 flex justify-center bg-white transition-all duration-300 ease-in-out border-gray-300 ${toggle ? 'border-b ' : 'border-b-0'}`}>
             <div className= "w-full max-w-7xl flex items-center justify-between px-6 py-3">
                 <Link href='/' className="flex items-center gap-x-2">
-                    <h1 className="text-lg font-bold text-gray-900 italic">FeeTrack</h1>                
+                    <h1 className="text-lg font-bold text-gray-900 italic">Lectt</h1>                
                 </Link>
 
                 <div className="hidden md:flex items-center gap-x-8">

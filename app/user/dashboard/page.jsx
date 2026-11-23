@@ -5,8 +5,8 @@ import UserLayout from "@/app/user/UserLayout";
 import DashboardContent from './DashboardContent'
 
 export const metadata = {
-    title: 'Dashboard | FeeTrack',
-    description: 'FeeTrack Dashboard'
+    title: 'Dashboard | Lectt',
+    description: 'Lectt Dashboard'
 }
 
 export default async function DashboardPage() {  

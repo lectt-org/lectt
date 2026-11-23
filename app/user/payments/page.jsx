@@ -7,7 +7,7 @@ import UserLayout from '../UserLayout';
 import PaymentsClient from "./PaymentsClient";
 
 export const metadata = {
-    title: 'Payments | FeeTrack',
+    title: 'Payments | Lectt',
     description: 'Lists the payments recorded.'
 }
 

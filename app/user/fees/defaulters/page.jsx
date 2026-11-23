@@ -6,7 +6,7 @@ import DefaultersClient from "./DefaultersClient";
 import UserLayout from "../../UserLayout";
 
 export const metadata = {
-    title: 'View Defaulters | FeeTrack',
+    title: 'View Defaulters | Lectt',
     description: 'The page to find students whose fees are due.'
 }
 

@@ -2,7 +2,7 @@ import { Hourglass } from "lucide-react";
 import UserLayout from "../UserLayout";
 
 export const metadata = {
-    title: 'Reports | FeeTrack',
+    title: 'Reports | Lectt',
     description: 'Generates reports and analysis.'
 }
 

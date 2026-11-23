@@ -13,8 +13,8 @@ export default function Contact() {
                         <h2 className='text-2xl font-medium'>Drop an email</h2>
                     </div>
 
-                    <a aria-label="Mail to FeeTrack" href="mailto:contact.feetrack@gmail.com" className="text-gray-700 decoration-0 text-2xl">
-                        contact.feetrack@gmail.com
+                    <a aria-label="Mail to Lectt" href="mailto:contact.lectt@gmail.com" className="text-gray-700 decoration-0 text-2xl">
+                        contact.lectt@gmail.com
                     </a>
                 </div>
 

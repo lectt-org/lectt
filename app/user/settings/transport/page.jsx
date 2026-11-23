@@ -6,7 +6,7 @@ import UserLayout from '../../UserLayout';
 import TransportClient from './TransportClient';
 
 export const metadata = {
-    title: 'Transport | FeeTrack',
+    title: 'Transport | Lectt',
     description: 'The page for setting up transport routes and fee.'
 }
 
