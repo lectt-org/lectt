@@ -3,8 +3,8 @@ import { Toaster } from "react-hot-toast";
 import NextTopLoader from "nextjs-toploader";
 
 export const metadata = {
-  title: "Lectt - Fee Management App for Schools, Coaching Centres and Colleges",
-  description: "Lectt is a modern, complete, and user-friendly solution to manage student data and fee collection - with custom features for schools, coaching centres and colleges.",
+  title: "Modern ERP for Schools, Coaching Centres & Colleges | Lectt",
+  description: "Lectt is a modern, complete, and user-friendly ERP solution for managing educational institutions - with custom features for schools, coaching centres and colleges.",
 };
 
 export default function RootLayout({ children }) {

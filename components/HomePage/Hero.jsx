@@ -29,7 +29,7 @@ export default function Hero() {
     return (
         <div className="w-full relative max-w-7xl flex flex-col items-center gap-8 p-2 md:gap-12">
             <div className="mt-16 flex flex-col items-center gap-4">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">Manage Educational Fees</h1>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">Manage Your Institute</h1>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold flex items-center justify-center text-center">
                     <span 
                         className="inline-block overflow-hidden transition-[width] duration-700 ease-in-out"
