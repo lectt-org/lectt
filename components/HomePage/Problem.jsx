@@ -23,7 +23,7 @@ export default function Problem() {
             <h2 className="text-4xl font-bold text-center"><span>Your Problem</span> <br/> <span>Our Solution</span></h2>
 
             <p className="w-full px-2 max-w-3xl text-center text-gray-900 font-medium">
-                Many schools and most of the tuition centres do not get access to digital tools for managing fee.
+                Most institutes still run on spreadsheets and paperwork, and it costs them time and lowers their productivity.
             </p>
 
             <div className="w-full max-w-xl flex flex-col items-start gap-6 p-2">
