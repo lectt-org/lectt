@@ -3,13 +3,41 @@ import { Toaster } from "react-hot-toast";
 import NextTopLoader from "nextjs-toploader";
 
 export const metadata = {
+  metadataBase: new URL("https://lectt.com"),
   title: "Modern ERP for Schools, Coaching Centres & Colleges | Lectt",
   description: "Lectt is a modern, complete, and user-friendly ERP solution for managing educational institutions - with custom features for schools, coaching centres and colleges.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    siteName: "Lectt",
+    title: "Lectt – Modern ERP for Schools, Coaching Centres & Colleges",
+    description:
+      "Lectt is a modern, complete, and user-friendly ERP solution for managing educational institutions - with custom features for schools, coaching centres and colleges.",
+    url: "https://lectt.com/",
+    type: "website",
+  },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Lectt",
+  alternateName: ["lectt.com", "Lectt"],
+  url: "https://lectt.com/",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema).replace(/</g, "\\u003c"),
+          }}
+        />
+      </head>
       <body className="antialiased">
         <NextTopLoader color="#5a4bda" height={4} showSpinner={false} shadow="0 0 10px #5a4bda,0 0 5px #5a4bda" />
         <Toaster
