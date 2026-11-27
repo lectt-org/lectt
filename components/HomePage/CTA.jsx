@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function CTA() {
     return (
-        <div className="w-full max-w-7xl mt-8 flex flex-col items-center gap-8 py-2 px-4">
-            <h1 className="text-4xl font-bold text-center">Ready to simplify fee management?</h1>
+        <div className="w-full max-w-7xl mt-12 flex flex-col items-center gap-8 py-2 px-4">
+            <h1 className="text-4xl font-bold text-center">Ready to Level Up Your Institute?</h1>
 
             <div className="flex items-center gap-4 md:gap-8">
                 <Link href='/signup' className="primary-btn rounded-full text-lg px-6 py-2" >

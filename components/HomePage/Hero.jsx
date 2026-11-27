@@ -49,7 +49,7 @@ export default function Hero() {
             </div>
 
             <p className="w-full px-2 max-w-3xl text-center lg:text-lg text-gray-900">
-                Easily manage student data and fee collection — perfectly aligned with your academic structure, with custom features for schools, coaching centres and colleges.
+                Easily manage students, fees and staff — aligned with your academic structure, with custom features for schools, coaching centres and colleges.
             </p>
         
             <div className="flex items-center gap-4 md:gap-8">

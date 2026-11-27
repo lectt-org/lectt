@@ -2,12 +2,12 @@ export default function Problem() {
     const problems = [
         {
             avatar: 'https://api.dicebear.com/9.x/notionists/svg?seed=Jack&radius=50&backgroundColor=d1d4f9',
-            heading: 'Affordability',
-            desc: "The fee management softare's pricing is half of monthly revenue!"
+            heading: 'Not Affordable',
+            desc: "My school can't afford the expensive ERPs."
         },
         {
             avatar: 'https://api.dicebear.com/9.x/notionists/svg?seed=Liliana&radius=50&backgroundColor=ffdfdc',
-            heading: 'Complexity',
+            heading: 'Complex',
             desc: "I find it difficult to use the complex ERPs."
         },
         {
@@ -19,12 +19,12 @@ export default function Problem() {
     ]
 
     return (
-        <div className="w-full max-w-7xl mt-8 flex flex-col items-center gap-8 py-2 px-4">
-            <h2 className="text-4xl font-bold text-center"><span>Your Problem</span> <br/> <span>Our Solution</span></h2>
-
-            <p className="w-full px-2 max-w-3xl text-center text-gray-900 font-medium">
+        <div className="w-full max-w-7xl mt-12 flex flex-col items-center gap-8 py-2 px-4">
+            <p className="w-full max-w-3xl text-center text-gray-900 text-sm font-medium rounded-2xl bg-gray-50 border border-gray-200 shadow-sm p-2">
                 Most institutes still run on spreadsheets and paperwork, and it costs them time and lowers their productivity.
             </p>
+
+            <h2 className="text-4xl font-bold text-center">Traditional ERPs Can Feel Heavy</h2>
 
             <div className="w-full max-w-xl flex flex-col items-start gap-6 p-2">
                 {problems.map((problem, index) => (
@@ -33,7 +33,7 @@ export default function Problem() {
 
                         <div className="w-full rounded-b-lg rounded-tr-lg flex flex-col items-start gap-1 text-gray-900 bg-gray-50 border border-gray-200 shadow-sm p-2">
                             <h4 className="font-medium">{problem.heading}</h4>
-                            <p className="text-sm">{problem.desc}</p>
+                            <p>{problem.desc}</p>
                         </div>
 
                     </div>
